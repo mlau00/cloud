@@ -17,6 +17,7 @@ client = storage.Client()
 # Define your bucket name
 bucket_name = 'project_bucket_for_test'
 
+
 app = Flask(__name__)
 
 db = SQLAlchemy()
